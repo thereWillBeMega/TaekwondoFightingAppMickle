@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		37E2502F2CCFC603006BC66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2500D2CCFC602006BC66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E250142CCFC602006BC66C;
+			remoteInfo = TaekwondoFightingAppMickle;
+		};
+		37E250392CCFC603006BC66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2500D2CCFC602006BC66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E250142CCFC602006BC66C;
+			remoteInfo = TaekwondoFightingAppMickle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E250152CCFC602006BC66C /* TaekwondoFightingAppMickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaekwondoFightingAppMickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2502E2CCFC603006BC66C /* TaekwondoFightingAppMickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaekwondoFightingAppMickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E250382CCFC603006BC66C /* TaekwondoFightingAppMickleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaekwondoFightingAppMickleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		37E250402CCFC603006BC66C /* Exceptions for "TaekwondoFightingAppMickle" folder in "TaekwondoFightingAppMickle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 37E250142CCFC602006BC66C /* TaekwondoFightingAppMickle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		37E250172CCFC602006BC66C /* TaekwondoFightingAppMickle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				37E250402CCFC603006BC66C /* Exceptions for "TaekwondoFightingAppMickle" folder in "TaekwondoFightingAppMickle" target */,
+			);
+			path = TaekwondoFightingAppMickle;
+			sourceTree = "<group>";
+		};
+		37E250312CCFC603006BC66C /* TaekwondoFightingAppMickleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaekwondoFightingAppMickleTests;
+			sourceTree = "<group>";
+		};
+		37E2503B2CCFC603006BC66C /* TaekwondoFightingAppMickleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaekwondoFightingAppMickleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E250122CCFC602006BC66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2502B2CCFC603006BC66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E250352CCFC603006BC66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E2500C2CCFC602006BC66C = {
+			isa = PBXGroup;
+			children = (
+				37E250172CCFC602006BC66C /* TaekwondoFightingAppMickle */,
+				37E250312CCFC603006BC66C /* TaekwondoFightingAppMickleTests */,
+				37E2503B2CCFC603006BC66C /* TaekwondoFightingAppMickleUITests */,
+				37E250162CCFC602006BC66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E250162CCFC602006BC66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E250152CCFC602006BC66C /* TaekwondoFightingAppMickle.app */,
+				37E2502E2CCFC603006BC66C /* TaekwondoFightingAppMickleTests.xctest */,
+				37E250382CCFC603006BC66C /* TaekwondoFightingAppMickleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E250142CCFC602006BC66C /* TaekwondoFightingAppMickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E250412CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickle" */;
+			buildPhases = (
+				37E250112CCFC602006BC66C /* Sources */,
+				37E250122CCFC602006BC66C /* Frameworks */,
+				37E250132CCFC602006BC66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				37E250172CCFC602006BC66C /* TaekwondoFightingAppMickle */,
+			);
+			name = TaekwondoFightingAppMickle;
+			packageProductDependencies = (
+			);
+			productName = TaekwondoFightingAppMickle;
+			productReference = 37E250152CCFC602006BC66C /* TaekwondoFightingAppMickle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E2502D2CCFC603006BC66C /* TaekwondoFightingAppMickleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E250462CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickleTests" */;
+			buildPhases = (
+				37E2502A2CCFC603006BC66C /* Sources */,
+				37E2502B2CCFC603006BC66C /* Frameworks */,
+				37E2502C2CCFC603006BC66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E250302CCFC603006BC66C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37E250312CCFC603006BC66C /* TaekwondoFightingAppMickleTests */,
+			);
+			name = TaekwondoFightingAppMickleTests;
+			packageProductDependencies = (
+			);
+			productName = TaekwondoFightingAppMickleTests;
+			productReference = 37E2502E2CCFC603006BC66C /* TaekwondoFightingAppMickleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E250372CCFC603006BC66C /* TaekwondoFightingAppMickleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E250492CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickleUITests" */;
+			buildPhases = (
+				37E250342CCFC603006BC66C /* Sources */,
+				37E250352CCFC603006BC66C /* Frameworks */,
+				37E250362CCFC603006BC66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2503A2CCFC603006BC66C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37E2503B2CCFC603006BC66C /* TaekwondoFightingAppMickleUITests */,
+			);
+			name = TaekwondoFightingAppMickleUITests;
+			packageProductDependencies = (
+			);
+			productName = TaekwondoFightingAppMickleUITests;
+			productReference = 37E250382CCFC603006BC66C /* TaekwondoFightingAppMickleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E2500D2CCFC602006BC66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					37E250142CCFC602006BC66C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					37E2502D2CCFC603006BC66C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 37E250142CCFC602006BC66C;
+					};
+					37E250372CCFC603006BC66C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 37E250142CCFC602006BC66C;
+					};
+				};
+			};
+			buildConfigurationList = 37E250102CCFC602006BC66C /* Build configuration list for PBXProject "TaekwondoFightingAppMickle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E2500C2CCFC602006BC66C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37E250162CCFC602006BC66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E250142CCFC602006BC66C /* TaekwondoFightingAppMickle */,
+				37E2502D2CCFC603006BC66C /* TaekwondoFightingAppMickleTests */,
+				37E250372CCFC603006BC66C /* TaekwondoFightingAppMickleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E250132CCFC602006BC66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2502C2CCFC603006BC66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E250362CCFC603006BC66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E250112CCFC602006BC66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2502A2CCFC603006BC66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E250342CCFC603006BC66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E250302CCFC603006BC66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E250142CCFC602006BC66C /* TaekwondoFightingAppMickle */;
+			targetProxy = 37E2502F2CCFC603006BC66C /* PBXContainerItemProxy */;
+		};
+		37E2503A2CCFC603006BC66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E250142CCFC602006BC66C /* TaekwondoFightingAppMickle */;
+			targetProxy = 37E250392CCFC603006BC66C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37E250422CCFC603006BC66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaekwondoFightingAppMickle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E250432CCFC603006BC66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaekwondoFightingAppMickle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37E250442CCFC603006BC66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37E250452CCFC603006BC66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E250472CCFC603006BC66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaekwondoFightingAppMickle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaekwondoFightingAppMickle";
+			};
+			name = Debug;
+		};
+		37E250482CCFC603006BC66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaekwondoFightingAppMickle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaekwondoFightingAppMickle";
+			};
+			name = Release;
+		};
+		37E2504A2CCFC603006BC66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaekwondoFightingAppMickle;
+			};
+			name = Debug;
+		};
+		37E2504B2CCFC603006BC66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.TaekwondoFightingAppMickleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaekwondoFightingAppMickle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E250102CCFC602006BC66C /* Build configuration list for PBXProject "TaekwondoFightingAppMickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E250442CCFC603006BC66C /* Debug */,
+				37E250452CCFC603006BC66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E250412CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E250422CCFC603006BC66C /* Debug */,
+				37E250432CCFC603006BC66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E250462CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E250472CCFC603006BC66C /* Debug */,
+				37E250482CCFC603006BC66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E250492CCFC603006BC66C /* Build configuration list for PBXNativeTarget "TaekwondoFightingAppMickleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2504A2CCFC603006BC66C /* Debug */,
+				37E2504B2CCFC603006BC66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E2500D2CCFC602006BC66C /* Project object */;
+}
