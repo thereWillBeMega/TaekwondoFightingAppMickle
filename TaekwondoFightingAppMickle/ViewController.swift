@@ -7,13 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController  {
+    
+    
+    @IBOutlet weak var titleOutlet: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        titleOutlet.text = "Taekwondo\nSparing"
+        
+        
+
+        
     }
-
-
+    
+ 
+    @IBAction func toRecordAction(_ sender: Any) {
+    }
+    
+    
+    @IBAction func toHistoryAction(_ sender: Any) {
+    }
+    
 }
 
