@@ -12,4 +12,10 @@ import UIKit
 class CrazyCell: UITableViewCell{
     
     
+    @IBOutlet weak var labelOutlet1: UILabel!
+    
+    @IBOutlet weak var labelOutlet2: UILabel!
+    
+    @IBOutlet weak var labelOutlet3: UILabel!
+    
 }

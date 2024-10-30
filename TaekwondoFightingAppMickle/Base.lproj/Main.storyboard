@@ -206,6 +206,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <outlet property="labelOutlet1" destination="dWV-SG-8v2" id="uqY-c4-NOo"/>
+                                            <outlet property="labelOutlet2" destination="hSz-2W-sC8" id="wVm-mq-QGk"/>
+                                            <outlet property="labelOutlet3" destination="fvJ-5R-qTZ" id="6No-Lq-ELv"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

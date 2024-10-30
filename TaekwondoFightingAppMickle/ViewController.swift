@@ -7,6 +7,15 @@
 
 import UIKit
 
+
+class AppData{
+    
+    static var opponents : [Opponent] = [Opponent(name: "anti Peter", stratigy: "rushing", counterStratigy: "range")]
+    static var matches : [Match] = [Match(won: true, opponent: opponents[1])]
+
+    
+}
+
 class ViewController: UIViewController  {
     
     

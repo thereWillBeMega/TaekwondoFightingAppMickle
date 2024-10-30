@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+class Opponent{
+    
+    var name: String
+    var stratigy: String
+    var counterStratigy : String
+    
+    init(name: String, stratigy: String, counterStratigy: String) {
+        self.name = name
+        self.stratigy = stratigy
+        self.counterStratigy = counterStratigy
+    }
+    
+    
+}

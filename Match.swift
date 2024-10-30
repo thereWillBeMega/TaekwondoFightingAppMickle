@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+class Match{
+    
+    var won: Bool
+    var opponent: Opponent
+    
+    init(won: Bool, opponent: Opponent) {
+        self.won = won
+        self.opponent = opponent
+    }
+}
