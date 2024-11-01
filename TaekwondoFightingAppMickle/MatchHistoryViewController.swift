@@ -18,7 +18,8 @@ class MatchHistoryViewController: UIViewController, UITableViewDelegate, UITable
     @IBOutlet weak var historyTitleOutlet: UILabel!
     
     
-
+    @IBOutlet weak var winRateOutlet: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +29,8 @@ class MatchHistoryViewController: UIViewController, UITableViewDelegate, UITable
         
         tableViewOutlet.delegate = self
         tableViewOutlet.dataSource = self
+        AppData.updateWinRate()
+        winRateOutlet.text = "Win/Loss ratio: \(AppData.winRate)"
         
     }
     
@@ -37,7 +40,15 @@ class MatchHistoryViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableViewOutlet.dequeueReusableCell(withIdentifier: "myCell") as! CrazyCell
+        cell.labelOutlet1.text = " Opponent:   \(AppData.matches[indexPath.row].opponent.name)"
+        if AppData.matches[indexPath.row].won{
+            cell.labelOutlet3.text = "won"
+        }else{
+            cell.labelOutlet3.text = "lost"
+        }
+       
+        return cell
     }
 
     
