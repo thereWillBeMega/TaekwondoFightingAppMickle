@@ -11,9 +11,10 @@ import UIKit
 
 class AppData{
     
-    static var curOpponent = 0
+    static var curOpponent = opponents[0]
+    static var curMatch = matches[0]
     
-    static var opponents : [Opponent] = [Opponent(name: "anti Peter", stratigy: "rushing", counterStratigy: "range"),Opponent(name: "bob", stratigy: "win", counterStratigy: "lose")]
+    static var opponents : [Opponent] = [Opponent(name: "anti Peter", stratigy: "rushing", counterStratigy: "range"),Opponent(name: "bob", stratigy: "win", counterStratigy: "lose"),Opponent(name: "matthew", stratigy: "short", counterStratigy: "be tall lol")]
     static var matches : [Match] = [Match(won: true, opponent: opponents[0]), Match(won: false, opponent: opponents[1]), Match(won: true, opponent: opponents[0])]
     static var winRate = 0.0
     

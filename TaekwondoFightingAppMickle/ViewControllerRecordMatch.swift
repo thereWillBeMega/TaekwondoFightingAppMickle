@@ -36,7 +36,7 @@ class ViewControllerRecordMatch: UIViewController, UITableViewDataSource, UITabl
     }
         
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        AppData.curOpponent = indexPath.row
+        AppData.curOpponent = AppData.opponents[indexPath.row]
         performSegue(withIdentifier: "toSelectWin", sender: self)
         
     }

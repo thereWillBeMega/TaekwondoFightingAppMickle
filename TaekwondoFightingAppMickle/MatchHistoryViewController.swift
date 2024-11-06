@@ -53,15 +53,14 @@ class MatchHistoryViewController: UIViewController, UITableViewDelegate, UITable
 
     
         
-        /*
-         // MARK: - Navigation
-         
-         // In a storyboard-based application, you will often want to do a little preparation before navigation
-         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         // Get the new view controller using segue.destination.
-         // Pass the selected object to the new view controller.
-         }
-         */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+ 
+        AppData.curMatch =  AppData.matches[indexPath.row]
+        performSegue(withIdentifier: "toViewMatch", sender: self)
+
+        
+    }
+    
         
     
 }

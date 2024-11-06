@@ -1,34 +1,33 @@
 //
-//  ViewControllerSelectWin.swift
+//  ViewControllerViewMatch.swift
 //  TaekwondoFightingAppMickle
 //
-//  Created by PETER MICKLE on 11/4/24.
+//  Created by PETER MICKLE on 11/6/24.
 //
 
 import UIKit
 
-class ViewControllerSelectWin: UIViewController {
+class ViewControllerViewMatch: UIViewController {
     
     
+    @IBOutlet weak var matchWonOrLostOutlet: UILabel!
+    
+    
+    @IBOutlet weak var opponentOutlet: UILabel!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if AppData.curMatch.won{
+            matchWonOrLostOutlet.text = "Match Won"
+        }else{
+            matchWonOrLostOutlet.text = "Match Lost"
+        }
+        
+        opponentOutlet.text = "Opponent: \(AppData.curMatch.opponent.name)"
 
         // Do any additional setup after loading the view.
-    }
-    
-    
-    @IBAction func winAction(_ sender: Any) {
-        AppData.matches.append(Match(won: true, opponent: AppData.curOpponent))
-        performSegue(withIdentifier: "toMatchRecorded", sender: self)
-        
-    }
-    
-    
-    @IBAction func loseAction(_ sender: Any) {
-        AppData.matches.append(Match(won: false, opponent: AppData.curOpponent))
-        performSegue(withIdentifier: "toMatchRecorded", sender: self)
     }
     
 
