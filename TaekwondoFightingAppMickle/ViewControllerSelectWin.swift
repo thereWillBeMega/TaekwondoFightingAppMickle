@@ -22,6 +22,7 @@ class ViewControllerSelectWin: UIViewController {
     @IBAction func winAction(_ sender: Any) {
         AppData.matches.append(Match(won: true, opponent: AppData.curOpponent))
         performSegue(withIdentifier: "toMatchRecorded", sender: self)
+        AppData.save()
         
     }
     
@@ -29,6 +30,7 @@ class ViewControllerSelectWin: UIViewController {
     @IBAction func loseAction(_ sender: Any) {
         AppData.matches.append(Match(won: false, opponent: AppData.curOpponent))
         performSegue(withIdentifier: "toMatchRecorded", sender: self)
+        AppData.save()
     }
     
 
