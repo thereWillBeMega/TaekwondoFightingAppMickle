@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Opponent{
+class Opponent: Encodable, Decodable{
     
     var name: String
     var stratigy: String

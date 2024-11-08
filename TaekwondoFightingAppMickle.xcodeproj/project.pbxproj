@@ -11,6 +11,7 @@
 		372308422CD25FB70063ACA2 /* crazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372308412CD25FB70063ACA2 /* crazyCell.swift */; };
 		3723087A2CD264190063ACA2 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372308792CD264190063ACA2 /* Match.swift */; };
 		3723087C2CD264310063ACA2 /* Opponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723087B2CD264310063ACA2 /* Opponents.swift */; };
+		37A7578F2CDE5169005EF901 /* ViewControllerOpponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A7578E2CDE5169005EF901 /* ViewControllerOpponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		372308412CD25FB70063ACA2 /* crazyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazyCell.swift; sourceTree = "<group>"; };
 		372308792CD264190063ACA2 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		3723087B2CD264310063ACA2 /* Opponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opponents.swift; sourceTree = "<group>"; };
+		37A7578E2CDE5169005EF901 /* ViewControllerOpponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOpponents.swift; sourceTree = "<group>"; };
 		37E250152CCFC602006BC66C /* TaekwondoFightingAppMickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaekwondoFightingAppMickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E2502E2CCFC603006BC66C /* TaekwondoFightingAppMickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaekwondoFightingAppMickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E250382CCFC603006BC66C /* TaekwondoFightingAppMickleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaekwondoFightingAppMickleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		37E2500C2CCFC602006BC66C = {
 			isa = PBXGroup;
 			children = (
+				37A7578E2CDE5169005EF901 /* ViewControllerOpponents.swift */,
 				370944652CDBA927004BE866 /* ViewControllerViewMatch.swift */,
 				372308792CD264190063ACA2 /* Match.swift */,
 				3723087B2CD264310063ACA2 /* Opponents.swift */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3723087C2CD264310063ACA2 /* Opponents.swift in Sources */,
+				37A7578F2CDE5169005EF901 /* ViewControllerOpponents.swift in Sources */,
 				372308422CD25FB70063ACA2 /* crazyCell.swift in Sources */,
 				370944662CDBA927004BE866 /* ViewControllerViewMatch.swift in Sources */,
 				3723087A2CD264190063ACA2 /* Match.swift in Sources */,

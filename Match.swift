@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Match{
+class Match: Encodable, Decodable{
     
     var won: Bool
     var opponent: Opponent

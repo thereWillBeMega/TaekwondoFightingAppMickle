@@ -23,9 +23,44 @@ class AppData{
 
     
     static func save(){
-        defaults.set(AppData.matches, forKey: "Matches")
-        defaults.set(AppData.opponents, forKey: "Opponents")
+        if let matchEncode = try? self.encoder.encode(AppData.matches){
+            defaults.set(matchEncode, forKey: "Matches")
+        }
+        
+        if let opponentEncode = try? self.encoder.encode(AppData.opponents){
+            defaults.set(opponentEncode, forKey: "Opponents")
+        }
 
+    }
+    
+    static func getMatches() -> [Match]{
+        
+        if let theMatches = defaults.data(forKey: "Matches") {
+            if let decoded = try? decoder.decode([Match].self, from: theMatches) {
+                
+                if (decoded.count != 0){
+                    return decoded
+                }
+                
+            }
+            
+        }
+        return []
+    }
+    
+    static func getOpponents() -> [Opponent]{
+        
+        if let theOpponents = defaults.data(forKey: "Opponents") {
+            if let decoded = try? decoder.decode([Opponent].self, from: theOpponents) {
+                
+                if (decoded.count != 0){
+                    return decoded
+                }
+                
+            }
+            
+        }
+        return []
     }
     
     
@@ -66,17 +101,13 @@ class ViewController: UIViewController  {
         
         titleOutlet.text = "Taekwondo\nSparing"
         
-        if AppData.defaults.object(forKey: "Matches") as? [Match] != nil{
-            AppData.matches = AppData.defaults.object(forKey: "Matches") as! [Match]
-            
-            
-            
-            
-            
-            
+        if !AppData.getMatches().isEmpty{
+            AppData.matches = AppData.getMatches()
         }
         
-
+        if !AppData.getOpponents().isEmpty{
+            AppData.opponents = AppData.getOpponents()
+        }
         
         
     }
@@ -95,7 +126,12 @@ class ViewController: UIViewController  {
     
     
     @IBAction func toHistoryAction(_ sender: Any) {
+        performSegue(withIdentifier: "toHistroy", sender: self)
     }
     
+    
+    @IBAction func toOpponentsAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toOpponents", sender: self)
+    }
     
 }
