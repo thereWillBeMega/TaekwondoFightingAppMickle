@@ -120,6 +120,8 @@ class ViewController: UIViewController  {
     
     
     
+    
+    
     @IBAction func toRecordAction(_ sender: Any) {
         performSegue(withIdentifier: "homeToRecord", sender: self)
     }

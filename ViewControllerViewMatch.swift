@@ -15,7 +15,10 @@ class ViewControllerViewMatch: UIViewController {
     
     @IBOutlet weak var opponentOutlet: UILabel!
     
-
+    @IBOutlet weak var StratigyOutlet: UILabel!
+    
+    @IBOutlet weak var CSOutlet: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +29,8 @@ class ViewControllerViewMatch: UIViewController {
         }
         
         opponentOutlet.text = "Opponent: \(AppData.curMatch.opponent.name)"
-
+        StratigyOutlet.text = "Stratigy: \(AppData.curMatch.opponent.stratigy)"
+        CSOutlet.text = "Stratigy To Use: \(AppData.curMatch.opponent.counterStratigy)"
         // Do any additional setup after loading the view.
     }
     
