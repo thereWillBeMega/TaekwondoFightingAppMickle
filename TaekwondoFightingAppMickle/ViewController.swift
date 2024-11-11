@@ -14,7 +14,7 @@ class AppData{
     static var curOpponent = opponents[0]
     static var curMatch = matches[0]
     
-    static var opponents : [Opponent] = [Opponent(name: "anti Peter", stratigy: "rushing", counterStratigy: "range"),Opponent(name: "bob", stratigy: "win", counterStratigy: "lose"),Opponent(name: "matthew", stratigy: "short", counterStratigy: "be tall lol")]
+    static var opponents : [Opponent] = []
     static var matches : [Match] = []
     static var winRate = 0.0
     static  var defaults = UserDefaults.standard
@@ -100,7 +100,8 @@ class ViewController: UIViewController  {
         // Do any additional setup after loading the view.
         
         titleOutlet.text = "Taekwondo\nSparing"
-        
+        AppData.defaults.set([], forKey: "Opponents")
+        AppData.defaults.set([], forKey: "Matches")
         if !AppData.getMatches().isEmpty{
             AppData.matches = AppData.getMatches()
         }
@@ -123,7 +124,16 @@ class ViewController: UIViewController  {
     
     
     @IBAction func toRecordAction(_ sender: Any) {
-        performSegue(withIdentifier: "homeToRecord", sender: self)
+        if AppData.opponents.isEmpty{
+            let alert = UIAlertController(title: "Error!", message: "Add Opponents first", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .destructive, handler:     nil)
+            alert.addAction(okAction)
+            present(alert, animated: true, completion: nil)
+            
+        }else{
+            performSegue(withIdentifier: "homeToRecord", sender: self)
+        }
+        
     }
     
     
