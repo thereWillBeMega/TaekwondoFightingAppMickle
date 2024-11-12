@@ -100,8 +100,9 @@ class ViewController: UIViewController  {
         // Do any additional setup after loading the view.
         
         titleOutlet.text = "Taekwondo\nSparing"
-        AppData.defaults.set([], forKey: "Opponents")
-        AppData.defaults.set([], forKey: "Matches")
+
+//        AppData.defaults.set([], forKey: "Opponents")
+//        AppData.defaults.set([], forKey: "Matches")
         if !AppData.getMatches().isEmpty{
             AppData.matches = AppData.getMatches()
         }
