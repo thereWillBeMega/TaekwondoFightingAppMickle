@@ -7,39 +7,78 @@
 
 import UIKit
 
-class ViewControllerRecordMatch: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewControllerRecordMatch: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+
+    
    
     
     
     
-
-    @IBOutlet weak var tableViewOutlet2: UITableView!
+    @IBOutlet weak var pickerOutlet: UIPickerView!
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after lo
-        tableViewOutlet2.delegate = self
-        tableViewOutlet2.dataSource = self
+        pickerOutlet.delegate = self
+        pickerOutlet.dataSource = self
 
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         AppData.opponents.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableViewOutlet2.dequeueReusableCell(withIdentifier: "myCell")
-        cell?.textLabel?.text = AppData.opponents[indexPath.row].name
-        return cell!
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        if component == 0{
+            return AppData.opponents.count
+             }
+             return 0
     }
-        
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        AppData.curOpponent = AppData.opponents[indexPath.row]
+    
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+            if component == 0{
+                return AppData.opponents[row].name            }
+            return ""
+        }
+    
+    
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+         if component == 0{
+             AppData.curOpponent = AppData.opponents[row]
+           
+         }
+     }
+    
+    
+    
+    @IBAction func majicAction(_ sender: UIButton) {
         performSegue(withIdentifier: "toSelectWin", sender: self)
-        
     }
+    
+    
+    
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        AppData.opponents.count
+//    }
+//    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableViewOutlet2.dequeueReusableCell(withIdentifier: "myCell")
+//        cell?.textLabel?.text = AppData.opponents[indexPath.row].name
+//        return cell!
+//    }
+//        
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        AppData.curOpponent = AppData.opponents[indexPath.row]
+//        performSegue(withIdentifier: "toSelectWin", sender: self)
+//        
+//    }
     }
     
 
